@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "Markdown-Pricing"
+version = "0.1.0"
+description = ""
+authors = ["Jidhu Mohan <jidhu.mohan@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.5.1"
+pandas = "1.2"
+numpy = "1.19.2"
+seaborn = "^0.11.2"
+DateTime = "^4.4"
+scikit-learn = "^1.0.2"
+tensorflow = "2.4"
+bayesian-optimization = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipykernel = "^6.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
